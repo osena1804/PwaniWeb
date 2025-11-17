@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+    <html lang="en">
+       <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Lyn's first website</title>
+       </head> 
+       <body>
+        <!--Header Section-->
+        <header>
+        <h1>This Osena's first website</h1>
+        <nav>
+            <a href="#about">About</a> |
+            <a href="gallery">Gallery</a> |
+            <a href="#learning">What I Learned</a>  |
+            <a href="#contact">Contact</a>
+         </nav>
+        </header>
+
+        <hr>
+
+        <!-- Main Content-->
+         <main>
+            <!--About Section-->
+            <section id="about">
+                <h2>About This Page</h2>
+                <p>This is my HTML assignmnt at PwaniTeknowgalz. It was taught by Madam Joan.
+                    <strong>the Internet</strong>, <em>domains</em>, <u>URLs</u>, and how to write HTML code using Visual Studio Code.</p>
+                    <p>Below are the tags I practiced with in Class today.</p>
+            </section>
+            <!--Gallery Section-->
+            <section id="gallery">
+                <h2>Gallery</h2>
+                <p>These are sunset and cat images that I downloaded and placed inside the <code>photos</code> folder.</p>
+                <img src="photos/cat.jpg" alt="I love cats because they are good companions, so I decided to post one here." width="400">
+                <img src="photos/sunset.jpg" alt="Watching the sun set is always a very refreshing thing. So I decide to post a view here." width="400">
+            </section>
+            <!--Learning Section with Lists-->
+            <section id="--Learning">
+                <h2>Waht I Learned</h2>
+                <p>Here are some of the HTML tags we practiced</p>
+
+                <h3>Unordered List</h3>
+                <ul>
+                    <li>&lt;h1gt; to &lt;h6&gt; -- Headings</li>
+                    <li>&lt;p&gt; --Paragraphs</li>
+                    <li>&lt;a&gt; -- Links</li>
+                    <li>&lt;img&gt; -- Images</li>
+                    <li>&gt;ul&gt; / $lt;ol&gt; / &lt;li&gt; -- Lists</li>
+                </ul>
+
+                <h3> Ordered List</h3>
+                <ol>
+                    <li>Open VS Code</li>
+                    <li>Create Index.html</li>
+                    <li>Write HTML code</li>
+                    <li>Save and view in browser</li>
+                </ol>
+                <!--Table Saection-->
+                <h3>Sample Table</h3>
+                <p>This Table shows people in our HTML and their roles:</p>
+                <table border="1" cellpadding="6" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Role</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Joan</td>
+                            <td>Instructor</td>
+                        </tr>
+                        <td>Osena Linda</td>
+                        <td>Learner</td>
+                     </tr>
+                     <tr>
+                        <td>Angela Shirao</td>
+                        <td>Learner</td>
+                     </tr>
+                     <tr>
+                        <td>Samantha Akinyi</td>
+                        <td>Learner</td>
+                     </tr>
+                     <tr>
+                        <td>Immaculate Akoth</td>
+                        <td>Learner</td>
+                     </tr>
+                     <tr>
+                        <td>Dycoh Gacheri</td>
+                        <td>Learner</td>
+                     </tr>
+                     <tr>
+                        <td>Mwanapwani</td>
+                        <td>Learner</td>
+                     </tr>
+                     <tr>
+                        <td>Farida Mohammed</td>
+                        <td>Learner</td>
+                     </tr>
+                     <tr>
+                        <td>Salome Chipa</td>
+                        <td>Learner</td>
+                     </tr>
+                     <tr>
+                        <td>Shirley Sharon</td>
+                        <td>Learner</td>
+                     </tr>
+                     <tr>
+                        <td>Mercy Ndanu</td>
+                        <td>Learner</td>
+                     </tr>
+                     <tr>
+                        <td>Sharon Imali</td>
+                        <td>Learner</td>
+                     </tr>
+                     <tr>
+                        <td>Ebby Larry</td>
+                        <td>Learner</td>
+                     </tr>
+                     <tr>
+                        <td>Glaridah Simiyu</td>
+                        <td>Learner</td>
+                     </tr>
+                    </tbody>
+                </table>
+                <!-- Blockquote and Code Example-->
+                 <h3>Blockquote Example</h3>
+                 <blockquote cite="https://www.w3.org">
+                    "The World Wide Web (W3) is an information space where documents and other web resources are identified by URLs, interlinked by hyperlinks, and accessible via the internet. The world is changing fully to technology hence we need to create Digital Awareness to every young mind."
+                 </blockquote>
+
+                 <h3>Code Example</h3>
+                 <pre><code>&lt;img src="images/photos.jpg" alt="description"&gt;</code></pre>
+
+            </section>
+            <!--Contact Form-->
+            <section id="contact">
+                <h2>Contact Form</h2>
+                <p>Use the form below to send a message.</p>
+                <form action="#" method="get">
+                    <label for="name">Name:</label><br>
+                    <input id="name" name="name" type="text" placeholder="Your Name"><br><br>
+                    
+                    <label for="email">Email:</label><br>
+                    <textarea id="message" name="message" placeholder="Write something here..."></textarea><br><br>
+
+                    <label for="course">Course:</label><br>
+                    <select id="course" name="course">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="js">JavaScript</option>
+                    </select><br><br>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+         </main>
+
+         <hr>
+
+         <!--Footer-->
+         <footer>
+            <p>&copy; 2025 Lyn's website | Created by: Osena Linda</p>
+         </footer>
+       </body>
+    </html>
